@@ -45,7 +45,8 @@ object load
 
 // Exercise - change the constant power load on 'load_116' to 
 // an equivalent constant current load
-// modify load_116.constant_power_A_real (load_114.constant_power_A_real*load_116.nominal_voltage);
+modify load_116.constant_power_A_real (load_114.constant_power_A_real*load_116.nominal_voltage) kVA;
+modify load_116.constant_power_A_reac (load_114.constant_power_A_reac*load_116.nominal_voltage)j kVA;
 
 
 
